@@ -3,7 +3,7 @@
 
 import Adw from 'gi://Adw';
 import Gtk from 'gi://Gtk?version=4.0';
-import Gio from 'gio://Gio'
+import Gio from 'gi://Gio';
 
 // import {Adw, Gtk, Gio, GObject, GdkPixbuf} from ''
 // const {Adw, Gtk, Gio, GObject, GdkPixbuf} = imports.gi;
