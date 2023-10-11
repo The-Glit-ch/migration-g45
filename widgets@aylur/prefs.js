@@ -1,10 +1,20 @@
 /* exported init fillPreferencesWindow */
 
-const {Adw, Gtk, Gio, GObject, GdkPixbuf} = imports.gi;
+
+import Adw from 'gi://Adw';
+import Gtk from 'gi://Gtk?version=4.0';
+import Gio from 'gio://Gio'
+
+// import {Adw, Gtk, Gio, GObject, GdkPixbuf} from ''
+// const {Adw, Gtk, Gio, GObject, GdkPixbuf} = imports.gi;
+
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
-const Pages = Me.imports.pref.pages;
-const {SwitchRow} = Me.imports.pref.widgets;
+import * as Pages from './pref/pages';
+import {SwitchRow} from './pref/widgets';
+
+// const Pages = Me.imports.pref.pages;
+// const {SwitchRow} = Me.imports.pref.widgets;
 
 const _ = imports.gettext.domain(Me.metadata.uuid).gettext;
 
