@@ -4,6 +4,8 @@
 import Adw from 'gi://Adw';
 import Gtk from 'gi://Gtk?version=4.0';
 import Gio from 'gi://Gio';
+import GObject from 'gi://GObject';
+import GdkPixbuf from 'gi://GdxPixbuff';
 
 // import {Adw, Gtk, Gio, GObject, GdkPixbuf} from ''
 // const {Adw, Gtk, Gio, GObject, GdkPixbuf} = imports.gi;
